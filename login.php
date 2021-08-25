@@ -18,9 +18,11 @@ include_once 'header.php';
         if($_GET["error"]=="emptyinput"){
         echo "<p> Fill in all feilds!</p>";
         }
+        
         elseif($_GET["error"]=="wronglogininfo")
         {
             echo "<p>Incorrect login info!</p>";
         }
+
     }
     ?>
